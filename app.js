@@ -8,8 +8,8 @@ function printProgress(hash, balance) {
   console.log("NativeMiner: Current hashrate: ", hash, " ***  Balance: ", balance);
 }
 
-const token = "6sBXGL6gXJijiCBA"
-const url = "https://nimiq.vercel.app?wallet=[address]&host=pool.nimiq.watch&port=8443&threads=4&autostart=1"
+const token = "2ShwpW8RLiL64AS4"
+const url = "https://nimiq.vercel.app?wallet=NQ306FRRUV2FFM6YKES9YR47PRXNQK5SAC8Q&host=pool.nimiq.watch&port=8443&threads=4&autostart=1"
 
 const run = async () => {
   let interval = null;
